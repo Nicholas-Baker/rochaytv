@@ -3,7 +3,7 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
 <head>
 <style>
     .main {
-        background-color: #ffffff;
+        background-color: #eeeeee;
     }
 </style>
 </head>
@@ -16,27 +16,27 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
     <list>
       <section>
         <header>
-          <title>Kevin Rochay In Conversation with...</title>
+          <title>In Conversation with...</title>
         </header>
         <listItemLockup vidUrl="https://s3-eu-west-1.amazonaws.com/rochaytv/NaveenTestimonial-A-HD.mov">
-          <title>Noel Edmonds</title>
-          <relatedContent>
-            <lockup>
-              <img src="${this.BASEURL}resources/rochaytv-preview-image-edmonds.png" width="857" height="482" />
-              <title>Related Title 1</title>
-              <subtitle>Related Subtitle 1</subtitle>
-              <description>Lorem ipsum Sociis mauris in integer, a dolor netus non dui aliquet, sagittis felis sodales, dolor sociis mauris, vel eu libero cras. Interdum at. Eget habitasse elementum est, ipsum purus pede porttitor class, ut adipiscing, aliquet sed auctor, imperdiet arcu per diam dapibus libero duis. Enim eros in vel, volutpat.</description>
-            </lockup>
-          </relatedContent>
-        </listItemLockup>
-        <listItemLockup vidUrl="https://s3-eu-west-1.amazonaws.com/rochaytv/KevinTestimonial-C-HD.mov">
           <title>Paul McKenna</title>
           <relatedContent>
             <lockup>
               <img src="${this.BASEURL}resources/rochaytv-preview-image-mckenna.png" width="857" height="482" />
-              <title>Related Title 2</title>
-              <subtitle>Related Subtitle 2</subtitle>
-              <description>Lorem ipsum Sociis mauris in integer, a dolor netus non dui aliquet, sagittis felis sodales, dolor sociis mauris, vel eu libero cras. Interdum at. Eget habitasse elementum est, ipsum purus pede porttitor class, ut adipiscing, aliquet sed auctor, imperdiet arcu per diam dapibus libero duis. Enim eros in vel, volutpat.</description>
+              <title>Paul McKenna in conversation with Kevin Rochay</title>
+              <subtitle>Paul discusses his success mindset...</subtitle>
+              <description>Paul talks about his successes and overcoming challenges, expressing his desire to change the way we think about our own problems and how he is helping those with severe issues.</description>
+            </lockup>
+          </relatedContent>
+        </listItemLockup>
+        <listItemLockup vidUrl="https://s3-eu-west-1.amazonaws.com/rochaytv/KevinTestimonial-C-HD.mov">
+          <title>Noel Edmonds</title>
+          <relatedContent>
+            <lockup>
+              <img src="${this.BASEURL}resources/rochaytv-preview-image-edmonds.png" width="857" height="482" />
+              <title>Noel Edmonds in conversation with Kevin Rochay</title>
+              <subtitle>Noel tells us about his new ventures...</subtitle>
+              <description>Noel talks about his new hand built car company at the Monaco Top Marques luxury show and discusses his positive mindest and how it has driven him from one success to another.</description>
             </lockup>
           </relatedContent>
         </listItemLockup>
@@ -45,9 +45,9 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
           <relatedContent>
             <lockup>
               <img src="${this.BASEURL}resources/rochaytv-preview-image-mcintyre.png" width="857" height="482" />
-              <title>Related Title 3</title>
-              <subtitle>Related Subtitle 3</subtitle>
-              <description>Lorem ipsum Sociis mauris in integer, a dolor netus non dui aliquet, sagittis felis sodales, dolor sociis mauris, vel eu libero cras. Interdum at. Eget habitasse elementum est, ipsum purus pede porttitor class, ut adipiscing, aliquet sed auctor, imperdiet arcu per diam dapibus libero duis. Enim eros in vel, volutpat.</description>
+              <title>Stewart McIntyre in conversation with Kevin Rochay</title>
+              <subtitle>Stewart discusses the challenges of running Sunseeker Superyachts...</subtitle>
+              <description>Stewart discusses the success of Sunseeker in the current financial market and how they overcame their challenges to be one of the leading lights of the luxury industry in Great Britain.</description>
             </lockup>
           </relatedContent>
         </listItemLockup>
@@ -56,9 +56,9 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
           <relatedContent>
             <lockup>
               <img src="${this.BASEURL}resources/rochaytv-preview-image-aldridge.png" width="857" height="482" />
-              <title>Related Title 4</title>
-              <subtitle>Related Subtitle 4</subtitle>
-              <description>Lorem ipsum Sociis mauris in integer, a dolor netus non dui aliquet, sagittis felis sodales, dolor sociis mauris, vel eu libero cras. Interdum at. Eget habitasse elementum est, ipsum purus pede porttitor class, ut adipiscing, aliquet sed auctor, imperdiet arcu per diam dapibus libero duis. Enim eros in vel, volutpat.</description>
+              <title>Mark Aldridge in conversation with Kevin Rochay</title>
+              <subtitle>Mark discusses the investment sector...</subtitle>
+              <description>Mark talks about the the successes of his investment company and how he overcame the challenges in the current financial market place.</description>
             </lockup>
           </relatedContent>
         </listItemLockup>
